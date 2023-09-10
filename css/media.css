@@ -1,0 +1,177 @@
+/* XL */
+
+@media(max-width:1399px){
+    .container{
+        max-width: 1320px;
+
+    }
+}
+
+/* LG */
+
+@media(max-width:1199px){
+    .container{
+        max-width: 1140px;
+    }
+    .banner{
+        padding: 200px 0;
+    }
+    .header-btn a, .banner a, .event-content a, .explore-title a, .tour-title a{
+        margin-top: 30px;
+    }
+    .upcoming-tour{
+        padding: 60px 0;
+    }
+
+}
+
+/* MD */
+
+@media(max-width:991px){
+    .container{
+        max-width: 960px;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+    .w-md-3{
+        width: 33.33%;
+    }
+    .banner{
+        padding: 150px 0;
+    }
+    .banner h1{
+        font-size: 60px;
+    } 
+    nav{
+        background-color: rgb(149, 152, 154);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 15px 0 15px 15px;
+        padding: 0 15px;
+    }
+    .header-btn{
+        display: none;
+    }
+    .toggle-menu{
+        display: block;
+        margin-right: 15px;
+    }
+    .banner h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .upcoming-events{
+        padding-top: 30px;
+    }
+    .event-items{
+        padding: 20px 0;
+    }
+    .event-content{
+        padding: 25px;
+    }
+    .event-content p{
+        font-size: 15px;
+    }
+    .header-btn a, .banner a, .event-content a, .explore-title a, .tour-title a{
+        margin-top: 20px;
+    }
+    .explore{
+        padding: 80px 0;
+    }
+    .upcoming-tour{
+        padding: 40px 0;
+    }
+    .tour-title{
+        padding: 30px;
+    }
+    .footer-items{
+        padding-top: 25px;
+    }
+    .active{
+        animation: none;
+    }
+
+}
+
+/* SM */
+
+@media(max-width:767px){
+    .container{
+        max-width: 720px;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+    .w-sm-2{
+        width: 50%;
+    }
+    .tour-title{
+        text-align: center;
+    }
+    .tour-title .line, .explore-title .line{
+        margin: 10px auto;
+    }
+    .explore-title{
+        padding: 0;
+        text-align: center;
+    }
+    .explore-title h2{
+        font-size: 30px;
+    }
+    .explore-title p{
+        font-size: 13px;
+    }
+    .tour-title{
+        padding: 20px;
+    }
+    .tour-title h2{
+        font-size: 30px;
+    }
+    .tour-title p{
+        font-size: 15px;
+    }
+
+}
+
+/* XS */
+
+@media(max-width:575px){
+    .container{
+        max-width: 540px;
+    }
+    .w-xs-1{
+        width: 100%;
+    }
+    .w-xs-2{
+        width: 50%;
+    }
+    .banner h1{
+        font-size: 50px;
+    }
+    .event-items{
+        padding: 10px 0;
+    }
+    .tour-title h2{
+        line-height: 40px;
+    }
+    .tour-img-1{
+        padding: 0;
+        text-align: center;
+    }
+    .copyright p{
+        padding-top: 25px;
+    }
+
+}
